@@ -4,9 +4,7 @@ def get_question():
 
     if question == "exit" or question == "Exit" or question == "EXIT":
         print()
-        print("_________________________________________________________________________________")
-        print("                                    GoodBye                                      ")
-        print("¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯")
+        print("exit")
 
         return 0
     
@@ -67,7 +65,5 @@ def divide(x,y):
 
 def modulus(x,y):
     return x % y
-
-print("                               Python Calculator                                ")
-print("---------------------------------------------------------------------------------")
+    
 get_question()
